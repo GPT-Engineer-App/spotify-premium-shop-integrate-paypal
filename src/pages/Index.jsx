@@ -8,10 +8,10 @@ const Index = () => {
   const toast = useToast();
 
   const handlePurchase = () => {
-    // Here you would integrate the PayPal purchase logic
+    // Simulate PayPal purchase logic
     toast({
       title: "Purchase Successful",
-      description: "Thank you for purchasing Spotify Premium!",
+      description: "€2.99 has been transferred to sender.lithuania@gmail.com for Spotify Premium!",
       status: "success",
       duration: 5000,
       isClosable: true,
